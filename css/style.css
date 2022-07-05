@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.display-flex {
+  width: 40%;
+  float: left;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-left: 2%;
+  padding-bottom: 150px;
+  padding-top: 50px;
+}
+.hero-text {
+  text-decoration: none;
+  text-align: left;
+  padding: 100px 10px;
+}
+
+h1 {
+  font-size: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #575757;
+}
+h1 span {
+  background: linear-gradient(43deg, #fba24f, #ff1e1e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-size: 18px;
+  color: #575757;
+  padding-bottom: 50px;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(43deg, #fba24f, #ff1e1e);
+  padding: 10px 30px;
+  border-radius: 30px;
+  transition: all 0.1s ease-in-out;
+}
+.btn:hover {
+  background: linear-gradient(43deg, #ff1e1e, #fba24f);
+  transition: all 0.1s ease-in-out;
+}
+
+.hero-image {
+  width: 100%;
+}
+.about-me {
+  width: 300px;
+}
+.about-me-section {
+  background-image: url(../img/shapes/7.png);
+}
+/* text= #575757  gradient= #FF1E1E #FBA24F */
